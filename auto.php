@@ -1,5 +1,6 @@
 <?php
 include "connect.php";
+
 include "header.php";
 
 ?>
@@ -14,12 +15,12 @@ include "header.php";
 </head>
 <body>
 <div class="container mt-4">
-<h1>Форма регистрации</h1>
-<form action="reg-db.php" method="post">
+<h1>Форма авторизации</h1>
+<form action="auto-db.php" method="post">
 	<input type="text" name="email" class="form-control" id="login" placeholder="email"><br>
-	<input type="text" name="username" class="form-control" id="login" placeholder="Логин"><br>
+	<!-- <input type="text" name="username" class="form-control" id="login" placeholder="Логин"><br> -->
 	<input type="password" name="password" class="form-control" id="pass" placeholder="Пароль"><br>
-	<button class="btn btn-success"> Зарегистрироваться </button><br>
+	<button class="btn btn-success">Авторизоваться</button><br>
 </form> 
 </div>
 </body>

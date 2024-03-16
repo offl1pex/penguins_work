@@ -1,6 +1,6 @@
 <?php 
 
-setcookie('user', $user['name'], time() - 3600, "/");
+setcookie('user', $user1['username'], time() - 3600, "/");
 header('Location: /');
 
-?>
+ ?>

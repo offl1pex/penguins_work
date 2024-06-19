@@ -1,0 +1,153 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 15px;
+    gap: 20px;
+}
+.header-div1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+}
+.hr1 {
+    width: 1px;
+    height: 50px;
+    background-color: #D9DADB;
+}
+.header-div2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    margin-right: 60%;
+}
+.header-div3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.hr2 {
+    margin: 0 auto;
+    width: 1600px;
+    height: 1px;
+    background-color: #D9DADB;
+}
+.logo-date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 1%;
+}
+.date-weather {
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.section {
+    background-color: #262D33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 30px;
+    padding: 20px 0;
+    list-style: none;
+}
+.section a {
+    text-decoration: none;
+    color: #fff;
+}
+.section li a {
+    list-style: none;
+}
+#userHeading, #userText, #userSelect {
+    width: 313px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid var(--Base-Grey-15, #D9DADB);
+    background: var(--Base-White, #FFF);
+}
+#userSubmit {
+    width: 119px;
+    height: 40px;
+    border-radius: 20px;
+    background: var(--Blue-Blue-75, #4592FF);
+    color: #FFF;
+}
+#form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.card {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 100px;
+}
+.ul_news {
+    font-size: 40px;
+}
+
+.text_admin {
+    font-size: 50px;
+}
+
+.col_1_ul {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text_admin {
+    margin: 0 auto;
+}
+.c_img img {
+    width: 500px;
+    height: 400px;
+}
+.adding_a img {
+    width: 50px;
+    height: 50px;
+}
+.list-group {
+    display: flex;
+    flex-direction: row;
+}
+.container1 {
+    display: flex;
+    gap: 5%s;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.card {
+    margin: 0;
+}
+h3 {
+    margin-top: 50px;
+}
+.card-body {
+    padding: 0;
+}
